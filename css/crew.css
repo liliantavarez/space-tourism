@@ -2,9 +2,7 @@
 
 * {
     text-transform: uppercase;
-    color: white;
-    font-family: 'Bellefair';
-
+    font-family: Barlow Condensed;
 }
 
 body {
@@ -33,9 +31,11 @@ main {
 }
 
 .page-name {
+    
+    color: white;
     margin-top: 212px;
     margin-left: 150px;
-    font-family: 'Barlow Condensed';
+    
     font-size: 28px;
     line-height: 34px;
     letter-spacing: 4.725px;
@@ -48,8 +48,8 @@ main {
 }
 
 .office {
-    width: 214px;
-    height: 37px;
+    font-family: 'Bellefair';
+    color: #FFFFFF;
     font-size: 32px;
     line-height: 37px;
     mix-blend-mode: normal;
@@ -57,16 +57,16 @@ main {
 }
 
 .name {
+    font-family: 'Bellefair';
+    color:#FFFFFF;
     display: inline;
-    width: 488px;
     font-size: 56px;
     line-height: 64px;
 }
 
 .bio {
     width: 444px;
-    height: 128px;
-    font-family: 'Barlow';
+    text-transform: none;
     font-size: 18px;
     line-height: 32px;
     color: #D0D6F9;
