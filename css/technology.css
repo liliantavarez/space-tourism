@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+}
+
+body {
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: auto;
+}
+
+header {
+    margin-top: 40px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.page-name {
+    margin-top: 212px;
+    margin-left: 150px;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+}
+
+.number {
+    display: inline;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+#menu-technology a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 32px;
+    line-height: 80px;
+    font-family: 'Bellefair';
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 0.2px solid #ffffffa8;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    margin-right: 80px;
+}
+
+#menu-technology a:hover {
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+#menu-technology ul,
+#menu-technology li {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
+}
+
+.technology-information {
+    display: flex;
+    margin-left: 167px;
+}
+
+.technology-image {
+    width: 515px;
+    height: 527px;
+    margin-bottom: 101px;
+}
+
+.terminology {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+
+.name-technology {
+    font-family: 'Bellefair';
+    width: 470px;
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.description-technology {
+    width: 444px;
+    height: 192px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    text-transform: none;
+}
