@@ -17,6 +17,11 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
+main {
+	display: flex;
+	margin: 260px 168px 131px 167px;
+	justify-content: space-between;
+}
 
 #menu {
 	font-family: 'Barlow Condensed';
@@ -33,11 +38,7 @@ header {
 	padding-left: 150px;
 }
 
-main {
-	display: flex;
-	margin: 260px 168px 131px 167px;
-	justify-content: space-between;
-}
+
 
 .title {
 	height: 34px;
@@ -84,7 +85,10 @@ main {
 	text-align: center;
 	background: white;
 }
-
+.circle:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 0px 50px rgba(255, 255, 255, 0.158);
+}
 .description {
 	width: 450px;
 	height: 382px;
@@ -128,6 +132,7 @@ main {
 	border-bottom-style: solid;
 	transition: 0.1s
 }
+
 /* @media screen and (max-width: 800px) {
 	#menu {
 		position: relative

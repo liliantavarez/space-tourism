@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="./css/destination.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <header class="flex-container">
 
-  01 Pick your destination
+    <section class="logo">
+      <img src="./assets/shared/logo.svg" alt="">
+    </section>
 
-  Moon
-  Mars
-  Europa
-  Titan
+    <nav id='menu'>
+      <ul>
+        <li><a id="btn-01" href='./index.html'><b>00</b> Home</a></li>
+        <li><a id="btn-02" href='./destination-moon.html'><b>01</b> Destination</a></li>
+        <li><a id="btn-03" href='./crew-commander.html'><b>02</b> Crew</a></li>
+        <li><a id="btn-04" href='./technology-vehicle.html'><b>03</b> Technology</a></li>
+      </ul>
+    </nav>
 
-  Moon
+  </header>
 
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
 
-  Avg. distance
-  384,400 km
+  <div class="page-name">
+    <p class="number">01 </p>Pick your destination
+  </div>
 
-  Est. travel time
-  3 days
+  <main>
+
+    <div class="image">
+      <img src="./assets/destination/image-moon.png" alt="">
+    </div>
+
+    <div class="information">
+      <nav id='menu-destiny'>
+        <ul>
+          <li><a id="btn-01" href='./destination-moon.html'>Moon</a></li>
+          <li><a id="btn-02" href='./destination-mars.html'> Mars</a></li>
+          <li><a id="btn-03" href='./destination-europa.html'> Europa</a></li>
+          <li><a id="btn-04" href='./destination-titan.html'>Titan</a></li>
+        </ul>
+      </nav>
+
+      <p class="name-destiny">moon</p>
+
+      <div class="description-planet">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come
+        back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+      </div>
+
+      <hr>
+
+      <section class="distace-time">
+
+        <div class="distance">
+          <p>Avg. distance</p>
+          <p>384,400 km</p>
+        </div>
+
+        <div class="time">
+          <p>Est. travel time</p>
+          <p>3 days</p>
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
 </body>
 </html>
