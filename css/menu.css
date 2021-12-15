@@ -1,0 +1,54 @@
+#menu {
+	font-family: 'Barlow Condensed';
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 2.7px;
+	background: #ffffff48;
+	backdrop-filter: blur(5px);
+	width: 50%;
+	display: flex;
+	align-items: center;
+	padding-left: 150px;
+}
+
+#menu ul,
+#menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+
+#menu ul {
+	width: 100%;
+}
+
+#menu li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+
+#menu a {
+	display: block;
+	line-height: 45px;
+	padding: 0 14px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#menu a.dropdown-arrow:after {
+	content: "\25BE";
+	margin-left: 5px;
+}
+
+#menu a:hover{
+	color: #d0d6f9;
+	border-bottom: #8b8d92;
+	border-bottom-style: solid;
+	transition: 0.1s
+}
+#menu li a:active{
+	border-bottom: white;
+	border-bottom-style: solid;
+}
+
