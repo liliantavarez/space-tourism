@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
+
 #menu {
 	font-family: 'Barlow Condensed';
 	font-size: 16px;
@@ -15,7 +17,8 @@
 #menu li {
 	margin: 0 auto;
 	padding: 0;
-	list-style: none
+	list-style: none;
+			
 }
 
 #menu ul {
@@ -23,12 +26,14 @@
 }
 
 #menu li {
+	
 	float: left;
 	display: inline;
 	position: relative;
 }
 
 #menu a {
+	color: white; 
 	display: block;
 	line-height: 45px;
 	padding: 0 14px;
@@ -48,7 +53,6 @@
 	transition: 0.1s
 }
 #menu li a:active{
-	border-bottom: white;
-	border-bottom-style: solid;
+	color: white;
 }
 
