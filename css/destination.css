@@ -29,15 +29,13 @@ main {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 90px;
-
 }
+
 hr{
 	margin-top: 54px;
 	background-color:  #383B4B;
 }
 
-#menu ul,
-#menu li,
 #menu-destiny  ul,
 #menu-destiny  li {
 	margin: 0 auto;
@@ -45,19 +43,16 @@ hr{
 	list-style: none
 }
 
-#menu ul,
 #menu-destiny  ul {
 	width: 100%;
 }
 
-#menu li,
 #menu-destiny  li {
 	float: left;
 	display: inline;
 	position: relative;
 }
 
-#menu a,
 #menu-destiny  a {
 	display: block;
 	line-height: 45px;
@@ -71,28 +66,11 @@ hr{
 	margin-left: 5px;
 }
 
-#menu a:hover, #menu-destiny  a:hover {
+#menu-destiny  a:hover {
 	color: #d0d6f9;
 	border-bottom: #8b8d92;
 	border-bottom-style: solid;
 	transition: 0.1s
-}
-#menu li a:active{
-	border-bottom: white;
-	border-bottom-style: solid;
-}
-
-#menu {
-	font-family: 'Barlow Condensed';
-	font-size: 16px;
-	line-height: 19px;
-	letter-spacing: 2.7px;
-	background: #ffffff48;
-	backdrop-filter: blur(5px);
-	width: 50%;
-	display: flex;
-	align-items: center;
-	padding-left: 150px;
 }
 
 #menu-destiny {
@@ -129,17 +107,17 @@ hr{
 	line-height: 34px;
 	letter-spacing: 4.725px;
 }
+.number {
+	display: inline;
+	mix-blend-mode: normal;
+	opacity: 0.25;
+}
 
 .information {
 	width: 445px;
 	height: 472px;
 }
 
-.number {
-	display: inline;
-	mix-blend-mode: normal;
-	opacity: 0.25;
-}
 
 .distace-time{
 	display: flex;
