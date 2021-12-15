@@ -5,12 +5,17 @@
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 2.7px;
-	background: #ffffff48;
-	backdrop-filter: blur(5px);
-	width: 60%;
-	display: flex;
-	align-items: center;
-	padding-left: 150px;
+	background: rgba(255, 255, 255, 0.04);
+	backdrop-filter: blur(81.5485px);
+	width: 720px;
+	padding-left: 123px;
+}
+
+#btn-01:hover,#btn-02:hover,#btn-03:hover,#btn-04:hover{
+	color: #d0d6f9;
+	border-bottom: #8b8d92;
+	border-bottom-style: solid;
+	transition: 0.1s
 }
 
 #menu ul,
@@ -18,7 +23,7 @@
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
-			
+
 }
 
 #menu ul {
@@ -26,14 +31,15 @@
 }
 
 #menu li {
-	
 	float: left;
 	display: inline;
 	position: relative;
 }
 
 #menu a {
-	color: white; 
+	margin-top: 25px;
+	height: 70px;
+	color: white;
 	display: block;
 	line-height: 45px;
 	padding: 0 14px;
@@ -45,14 +51,3 @@
 	content: "\25BE";
 	margin-left: 5px;
 }
-
-#menu a:hover{
-	color: #d0d6f9;
-	border-bottom: #8b8d92;
-	border-bottom-style: solid;
-	transition: 0.1s
-}
-#menu li a:active{
-	color: white;
-}
-
