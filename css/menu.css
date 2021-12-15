@@ -51,3 +51,11 @@
 	content: "\25BE";
 	margin-left: 5px;
 }
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+	#menu {
+		width: 450px;
+		height: 96px;
+	}
+}
