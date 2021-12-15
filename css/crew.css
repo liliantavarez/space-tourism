@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Bellefair';
+
+}
+
+body {
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    margin-top: 40px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110PX;
+}
+
+.page-name {
+    margin-top: 212px;
+    margin-left: 150px;
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+}
+
+.number {
+    display: inline;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.office {
+    width: 214px;
+    height: 37px;
+    font-size: 32px;
+    line-height: 37px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.name {
+    display: inline;
+    width: 488px;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.bio {
+    width: 444px;
+    height: 128px;
+    font-family: 'Barlow';
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+#menu-crew {
+    margin-top: 100px;
+    display: flex;
+}
+
+#menu-crew ul {
+    width: 100%;
+    padding: 0;
+}
+
+#menu-crew li {
+    display: inline;
+    padding-right: 24px;
+}
+
+#menu-crew a {
+    display: inline-block;
+    border-radius: 50%;
+    width: 15px;
+    
+    height: 15px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+    
+}
+
+#menu-crew a:hover{
+    background-color: white;
+    opacity:unset;
+}
