@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
 
 * {
 	text-transform: uppercase;
@@ -83,7 +84,7 @@ hr {
 }
 
 .name-destiny {
-	font-family: 'Bellefair';
+	font-family: 'Bellefair', serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 100px;
@@ -129,7 +130,83 @@ hr {
 .distance p:nth-of-type(2),
 .time p:nth-of-type(2) {
 	color: white;
-	font-family: 'Bellefair';
+	font-family: 'Bellefair', serif;
 	font-size: 28px;
 	line-height: 32px;
+}
+
+
+/*tablet responsive*/
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+	body {
+		background-image: url('../assets/destination/background-destination-tablet.jpg');
+		background-size: cover;
+		height: auto;
+		background-repeat: no-repeat;
+	}
+
+	.flex-container {
+		margin: 0;
+	}
+
+	main {
+		width: 573px;
+		height: 1024px;
+		display: grid;
+		grid-template-columns: 573px;
+		grid-template-rows: 300px 34px 92px 84px 90px;
+		gap: 52px 0px;
+		margin-left: 97px;
+		grid-auto-flow: row;
+		justify-items: center;
+		grid-template-areas:
+			"image"
+			"menu"
+			"name-destiny"
+			"description-planet"
+			"distance-time";
+	}
+
+	hr {
+		margin-top: 0;
+	}
+
+	.information {
+		text-align: center;
+	}
+
+	.name-destiny {
+		grid-area: name-destiny;
+		margin-bottom: 0;
+		font-size: 80px;
+		line-height: 92px;
+		text-align: center;
+	}
+
+	.description-planet {
+		grid-area: description-planet;
+		font-size: 16px;
+		line-height: 28px;
+		text-align: center;
+	}
+
+	.page-name {
+		margin-left: 38.5px;
+		margin-top: 40px;
+	}
+
+
+	.logo {
+		margin-left: 39px;
+	}
+
+	#menu-destiny {
+		margin-left: 80px;
+	}
+
+	#planet {
+		width: 300px;
+		height: 300px;
+	}
 }
