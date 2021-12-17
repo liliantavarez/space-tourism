@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
-
-* {
-    text-transform: uppercase;
-    font-family: Barlow Condensed;
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 
 body {
     background-image: url('../assets/crew/background-crew-desktop.jpg');
@@ -29,26 +24,7 @@ main {
     width: 1110PX;
 }
 
-.page-name {
-
-    color: white;
-    margin-top: 212px;
-    margin-left: 150px;
-
-    font-size: 28px;
-    line-height: 34px;
-    letter-spacing: 4.725px;
-}
-
-.number {
-    display: inline;
-    mix-blend-mode: normal;
-    opacity: 0.25;
-}
-
 .office {
-    font-family: 'Bellefair';
-    color: #FFFFFF;
     font-size: 32px;
     line-height: 37px;
     mix-blend-mode: normal;
@@ -56,16 +32,23 @@ main {
 }
 
 .name {
-    font-family: 'Bellefair';
-    color: #FFFFFF;
     display: inline;
     font-size: 56px;
     line-height: 64px;
 }
 
+.office,.name{
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+}
+
+.office,.name{
+    text-transform: uppercase;
+}
+
 .bio {
+    font-family: 'Barlow', sans-serif;
     width: 444px;
-    text-transform: none;
     font-size: 18px;
     line-height: 32px;
     color: #D0D6F9;
@@ -106,7 +89,7 @@ main {
 /*tablet responsive*/
 
 @media screen and (min-width:768px) and (max-width:1023px) {
-    body{
+    body {
         background-image: url('../assets/crew/background-crew-tablet.jpg');
     }
 

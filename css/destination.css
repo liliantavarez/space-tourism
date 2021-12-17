@@ -1,16 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
-
-* {
-	text-transform: uppercase;
-	font-family: 'Barlow Condensed';
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 
 body {
 	background-image: url('../assets/destination/background-destination-desktop.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: white;
 	margin: auto;
 }
 
@@ -61,7 +54,7 @@ hr {
 	padding: 0 14px;
 	text-decoration: none;
 	font-size: 16px;
-	color: white;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 #menu a.dropdown-arrow:after {
@@ -80,17 +73,20 @@ hr {
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 2.7px;
-	color: #D0D6F9;
+	
 }
 
 .name-destiny {
 	font-family: 'Bellefair', serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 100px;
 	line-height: 115px;
 	margin-top: 71px;
 	margin-bottom: 54px;
+}
+
+.name-destiny, #menu-destiny a{
+	text-transform: uppercase;
+	color: white;
 }
 
 .description-planet {
@@ -98,21 +94,7 @@ hr {
 	color: #D0D6F9;
 	font-size: 18px;
 	line-height: 32px;
-	text-transform: none;
-}
-
-.page-name {
-	margin-top: 212px;
-	margin-left: 150px;
-	font-size: 28px;
-	line-height: 34px;
-	letter-spacing: 4.725px;
-}
-
-.number {
-	display: inline;
-	mix-blend-mode: normal;
-	opacity: 0.25;
+	font-family: 'Barlow', sans-serif;
 }
 
 .information {

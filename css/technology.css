@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 * {
     text-transform: uppercase;
     font-family: 'Barlow Condensed';
@@ -9,8 +8,8 @@ body {
     background-image: url('../assets/technology/background-technology-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
     margin-left: auto;
+    margin-right: 0;
 }
 
 header {
@@ -29,18 +28,14 @@ main {
     margin-top: 90px;
 }
 
-.page-name {
-    margin-top: 212px;
-    margin-left: 150px;
-    font-size: 28px;
-    line-height: 34px;
-    letter-spacing: 4.725px;
-}
 
-.number {
-    display: inline;
-    mix-blend-mode: normal;
-    opacity: 0.25;
+
+.terminology {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
 }
 
 .menu-technology a {
@@ -50,7 +45,7 @@ main {
     letter-spacing: 2px;
     font-size: 32px;
     line-height: 80px;
-    font-family: 'Bellefair';
+    font-family: 'Bellefair', serif;
     display: inline-block;
     border-radius: 50%;
     width: 80px;
@@ -84,20 +79,14 @@ main {
     margin-bottom: 101px;
 }
 
-.terminology {
-    font-family: 'Barlow Condensed';
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 2.7px;
-    color: #D0D6F9;
-}
-
 .name-technology {
-    font-family: 'Bellefair';
-    width: 470px;
+    font-family: 'Bellefair', serif;
+    width: 417px;
+    height: 64px;
     display: inline;
     font-style: normal;
     font-weight: normal;
+    line-height: 64px;
     font-size: 56px;
     color: #FFFFFF;
 }
@@ -147,13 +136,11 @@ main {
         margin-top: 40PX;
     }
 
-    #image {
-        width: 768px;
-        height: 310px;
-    }
-
     .technology-image {
         grid-area: technology-image;
+        width: 768px;
+        height: 310px;
+        margin-bottom: 0;
     }
 
     .menu-technology {
@@ -177,11 +164,7 @@ main {
         grid-area: description-technology;
         font-size: 16px;
         line-height: 28px;
-    }
-
-    .menu-technology ul {
-        width: 100%;
-        padding: 0;
+        height: 140px;
     }
 
     .menu-technology li {
@@ -189,8 +172,8 @@ main {
         padding-right: 24px;
     }
 
-    .menu-technology a {
-        display: inline-block;
-        border-radius: 50%;
+    #image {
+        width: 768px;
+        height: 310px;
     }
 }

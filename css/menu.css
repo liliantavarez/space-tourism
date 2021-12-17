@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed');
 
 #menu {
-	font-family: 'Barlow Condensed';
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 2.7px;
@@ -52,6 +51,25 @@
 	margin-left: 5px;
 }
 
+.page-name {
+    margin-top: 212px;
+    margin-left: 150px;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+}
+
+.number {
+    display: inline;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.page-name,.number,#menu{
+	font-family: 'Barlow Condensed', sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
 
 @media screen and (min-width:768px) and (max-width:1023px) {
 	#menu {

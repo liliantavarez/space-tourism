@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inconsolata:wght@200;300;400&family=Inter&family=Montserrat:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 * {
 	text-transform: uppercase;
 	font-family: 'Barlow Condensed';
@@ -39,7 +38,7 @@ main {
 }
 
 .space {
-	font-family: 'Bellefair';
+	font-family: 'Bellefair', serif;
 	height: 172px;
 	line-height: 172px;
 	margin: 0;
@@ -55,7 +54,7 @@ main {
 }
 
 .circle {
-	font-family: 'Bellefair';
+	font-family: 'Bellefair', serif;
 	font-size: 32px;
 	text-transform: uppercase;
 	width: 274px;
