@@ -23,6 +23,8 @@ Users should be able to:
 ![127 0 0 1_5500_index html(Tablet)](https://user-images.githubusercontent.com/51184806/146389400-d9f8d0d1-b9a4-4107-82e2-628c47f58878.png)
 ![127 0 0 1_5500_destination-moon html(Tablet) (1)](https://user-images.githubusercontent.com/51184806/146389165-22854fa6-9ada-4dd6-96cd-6f53b7426f18.png)
 ![127 0 0 1_5500_crew-commander html(Tablet) (1)](https://user-images.githubusercontent.com/51184806/146552772-c8e486a1-232b-4516-9774-d61fc29b1962.png)
+![127 0 0 1_5500_technology-capsule html(Tablet) (1)](https://user-images.githubusercontent.com/51184806/146595230-a771e82e-a499-41b8-b7ef-f8c55155c129.png)
+
 ## My process
 
 ### Built with
