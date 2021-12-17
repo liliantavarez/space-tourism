@@ -43,7 +43,7 @@ main {
     opacity: 0.25;
 }
 
-#menu-technology a {
+.menu-technology a {
     text-align: center;
     text-decoration: none;
     color: white;
@@ -61,13 +61,13 @@ main {
     margin-right: 80px;
 }
 
-#menu-technology a:hover {
+.menu-technology a:hover {
     border: 1px solid white;
     box-sizing: border-box;
 }
 
-#menu-technology ul,
-#menu-technology li {
+.menu-technology ul,
+.menu-technology li {
     margin: 0 auto;
     padding: 0;
     list-style: none
@@ -85,9 +85,7 @@ main {
 }
 
 .terminology {
-    font-family: Barlow Condensed;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Barlow Condensed';
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
@@ -111,4 +109,88 @@ main {
     line-height: 32px;
     color: #D0D6F9;
     text-transform: none;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body {
+        background-image: url('../assets/technology/background-technology-tablet.jpg');
+    }
+
+    .container {
+        width: 768px;
+        height: 1024px;
+        display: grid;
+        grid-template-columns: 768px;
+        grid-template-rows: 300px 60px 19px 46px 140px;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "technology-image"
+            "menu-technology"
+            "terminology"
+            "name-technology"
+            "description-technology";
+    }
+
+    .technology-information {
+        flex-direction: column;
+        text-align: center;
+        margin-right: auto;
+    }
+
+    .menu-technology a {
+        margin-bottom: 32px;
+        margin-right: 16px;
+    }
+
+    .page-name {
+        margin-top: 40PX;
+    }
+
+    #image {
+        width: 768px;
+        height: 310px;
+    }
+
+    .technology-image {
+        grid-area: technology-image;
+    }
+
+    .menu-technology {
+        grid-area: menu-technology;
+        margin-top: 46px;
+        margin-bottom: 44px;
+        height: 60px;
+    }
+
+    .name-technology {
+        grid-area: name-technology;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .terminology {
+        grid-area: terminology;
+    }
+
+    .description-technology {
+        grid-area: description-technology;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .menu-technology ul {
+        width: 100%;
+        padding: 0;
+    }
+
+    .menu-technology li {
+        display: inline;
+        padding-right: 24px;
+    }
+
+    .menu-technology a {
+        display: inline-block;
+        border-radius: 50%;
+    }
 }
