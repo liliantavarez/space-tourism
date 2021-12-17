@@ -30,11 +30,11 @@ main {
 }
 
 .page-name {
-    
+
     color: white;
     margin-top: 212px;
     margin-left: 150px;
-    
+
     font-size: 28px;
     line-height: 34px;
     letter-spacing: 4.725px;
@@ -57,7 +57,7 @@ main {
 
 .name {
     font-family: 'Bellefair';
-    color:#FFFFFF;
+    color: #FFFFFF;
     display: inline;
     font-size: 56px;
     line-height: 64px;
@@ -71,34 +71,107 @@ main {
     color: #D0D6F9;
 }
 
-#menu-crew {
+.menu-crew {
     margin-top: 100px;
     display: flex;
 }
 
-#menu-crew ul {
+.menu-crew ul {
     width: 100%;
     padding: 0;
 }
 
-#menu-crew li {
+.menu-crew li {
     display: inline;
     padding-right: 24px;
 }
 
-#menu-crew a {
+.menu-crew a {
     display: inline-block;
     border-radius: 50%;
     width: 15px;
-    
+
     height: 15px;
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.17;
-    
+
 }
 
-#menu-crew a:hover{
+.menu-crew a:hover {
     background-color: white;
-    opacity:unset;
+    opacity: unset;
+}
+
+/*tablet responsive*/
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body{
+        background-image: url('../assets/crew/background-crew-tablet.jpg');
+    }
+
+    .container {
+        width: 573px;
+        height: 1024px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 28px 46px 84px 10px 572px;
+        gap: 39px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "office"
+            "name"
+            "bio"
+            "menu-crew"
+            "photo";
+    }
+
+    .page-name {
+        margin-left: 38.5px;
+        margin-top: 40px;
+    }
+
+    .team-information {
+        text-align: center;
+    }
+
+    .office {
+        grid-area: office;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .name {
+        grid-area: name;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .bio {
+        grid-area: bio;
+        font-size: 16px;
+        line-height: 28px;
+        height: 84px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-crew {
+        margin-top: 40px;
+        grid-area: menu-crew;
+    }
+
+    .photo {
+        margin-top: 128px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-area: photo;
+    }
+
+    #photo-crew {
+        width: 456.37px;
+        height: 572px;
+    }
+
 }
