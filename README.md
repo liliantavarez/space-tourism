@@ -9,14 +9,13 @@ Users should be able to:
 - View the optimal layout for each of the website's pages depending on their device's screen size
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
-- 
 ### Links
 
  - My Solution URL: [Space Tourism](https://liliantavarez.github.io/space-tourism/)
  
 ### Screenshot
-![screencapture-liliantavarez-github-io-space-tourism-2021-12-15-10_46_20](https://user-images.githubusercontent.com/51184806/146197922-aa616685-7250-4724-b466-b6a17edaa732.png)
-![screencapture-liliantavarez-github-io-space-tourism-destination-moon-html-2021-12-15-10_49_14](https://user-images.githubusercontent.com/51184806/146198354-a31682bf-27c4-46af-9a0f-6853b4777226.png)
+![liliantavarez github io_space-tourism_index html(NoteBook) (1)](https://user-images.githubusercontent.com/51184806/146567852-b04ca913-1e60-45c6-b9f3-641c789c36ad.png)
+![liliantavarez github io_space-tourism_destination-moon html(NoteBook) (1)](https://user-images.githubusercontent.com/51184806/146567861-30f00ff0-13c7-46fb-b8c8-b87c1983f8d5.png)
 ![screencapture-127-0-0-1-5500-crew-commander-html-2021-12-16-11_13_44](https://user-images.githubusercontent.com/51184806/146388090-64362a54-ff5e-4b94-b5fd-2d72cce7f2e3.png)
 ![screencapture-127-0-0-1-5500-technology-vehicle-html-2021-12-16-11_13_54](https://user-images.githubusercontent.com/51184806/146388096-e2189b89-61d9-4a72-a502-e109fab00b56.png)
 
@@ -32,6 +31,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Grid
+- Media queries
 
 ## Author
 
