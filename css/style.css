@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
 * {
 	text-transform: uppercase;
 	font-family: 'Barlow Condensed';
@@ -78,8 +79,6 @@ main {
 	body {
 		background-image: url('../assets/home/background-home-tablet.jpg');
 		width: 768px;
-		background-size: cover;
-		background-repeat: no-repeat;
 	}
 
 	.flex-container {
@@ -127,61 +126,69 @@ main {
 
 }
 
+/* responsive to mobile */
 
-/* @media screen and (max-width: 800px) {
-	#menu {
-		position: relative
+@media screen and (max-width: 767px) {
+	body {
+		background-image: url('../assets/home/background-home-mobile.jpg');
+		width: 375px;
 	}
 
-	#menu ul {
-		background: #111;
-		position: absolute;
-		top: 100%;
-		right: 0;
-		left: 0;
-		z-index: 3;
-		height: auto;
-		display: none
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 106px;
 	}
 
-	#menu ul.sub-menus {
-		width: 100%;
-		position: static;
+	.flex-container {
+		margin: 24px;
 	}
 
-	#menu ul.sub-menus a {
-		padding-left: 30px;
+
+	#img-logo,
+	.logo {
+		width: 40px;
+		height: 40px;
 	}
 
-	#menu li {
-		display: block;
-		float: none;
-		width: auto;
+
+	.description {
+		width: 327px;
+		height: 276px;
+		margin-bottom: 156px;
+		text-align: center;
+
+
 	}
 
-	#menu input,
-	#menu label {
-		position: absolute;
-		top: 0;
-		left: 0;
-		display: block
+	.title {
+		height: 19px;
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 2.7px;
 	}
 
-	#menu input {
-		z-index: 4
+	.text {
+		font-size: 15px;
+		line-height: 25px;
 	}
 
-	#menu input:checked+label {
-		color: white
+	.circle {
+		width: 150px;
+		height: 150px;
+		left: 113px;
+		top: 469px;
+		line-height: 150px;
+		font-size: 20px;
 	}
 
-	#menu input:checked+label:before {
-		content: "\00d7"
+	.space {
+		font-size: 80px;
+		line-height: 100px;
 	}
 
-	#menu input:checked~ul {
-		display: block
-	} 
-
+	.number-menu {
+		display: none;
+	}
 }
-	*/
