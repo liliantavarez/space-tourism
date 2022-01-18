@@ -8,15 +8,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="./css/technology.css">
   <link rel="stylesheet" href="./css/menu.css">
+  <script src="./js/script.js"></script>
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 
 <style>
   @media screen and (min-width:768px) and (max-width:1023px) {
-    #image{      
-        content:url("./assets/technology/image-launch-vehicle-landscape.jpg");
-    } 
+    #image {
+      content: url("./assets/technology/image-launch-vehicle-landscape.jpg");
+    }
   }
 </style>
 
@@ -28,7 +29,9 @@
       <img src="./assets/shared/logo.svg" alt="">
     </section>
 
-    <nav id='menu'>
+    <nav id='menu' class="menu-responsive">
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+      <label></label>
       <ul>
         <li><a id="btn-01" href='./index.html'><b>00</b> Home</a></li>
         <li><a id="btn-02" href='./destination-moon.html'><b>01</b> Destination</a></li>
@@ -58,7 +61,8 @@
       <div>
         <p class="terminology">THE TERMINOLOGY…</p>
         <h1 class="name-technology">LAUNCH VEHICLE</h1>
-        <p class="description-technology">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface
+        <p class="description-technology">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry
+          a payload from Earth's surface
           to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation.
           Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
       </div>

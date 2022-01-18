@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/menu.css">
   <link rel="stylesheet" href="./css/crew.css">
+  <script src="./js/script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
@@ -18,7 +19,9 @@
       <img src="./assets/shared/logo.svg" alt="">
     </section>
 
-    <nav id='menu'>
+    <nav id='menu'  class="menu-responsive">
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+      <label></label>
       <ul>
         <li><a id="btn-01" href='./index.html'><b>00</b> Home</a></li>
         <li><a id="btn-02" href='./destination-moon.html'><b>01</b> Destination</a></li>
@@ -47,7 +50,7 @@
         operating system. Shuttleworth became the first South African to travel to space as a space tourist.
       </p>
 
-      <nav class='menu-crew'>
+      <nav class='menu-crew' >
         <ul>
           <li><a id="btn-01" href='./crew-commander.html'></a></li>
           <li><a id="btn-02" href='./crew-specialist.html'></a></li>

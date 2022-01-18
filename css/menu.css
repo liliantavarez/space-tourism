@@ -51,37 +51,18 @@
 
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
-	margin-left: 5px;
-}
-
-#menu li a:hover {
-	color: #D0D6F9;
-	border-bottom-style: solid;
 }
 
 #menu input {
-	display: none;
-	margin: 0;
-	padding: 0;
-	height: 80px;
-	width: 100%;
 	opacity: 0;
 	cursor: pointer
 }
 
 #menu label {
-	display: none;
-	line-height: 80px;
-	text-align: center;
 	position: absolute;
-	left: 35px
 }
 
-#menu label:before {
-	font-size: 1.6em;
-	content: "\2261";
-	margin-left: 20px;
-}
+
 
 #menu ul.sub-menus {
 	height: auto;
@@ -89,7 +70,6 @@
 	width: 170px;
 	background: #444444;
 	position: absolute;
-	z-index: 99;
 	display: none;
 }
 
@@ -143,27 +123,33 @@
 }
 
 @media screen and (max-width: 767px) {
+	#menu label:before {
+		font-size: 3.3em;
+		content: "\2263";
+	}
+
 	#menu {
 		position: relative;
 		background: none;
-		width: 24px;
+		backdrop-filter: unset;
+		width: 40px;
+		height: 40px;
 		padding-left: 0;
-
 	}
 
+	#menu a {
+		height: 19px;
+		padding: 0px;
+	}
+	
 	#menu ul {
-		background: #e0dddd;
+		backdrop-filter: blur(1.4px);
 		position: absolute;
-		top: 100%;
-		right: 0;
-		left: 0;
-		z-index: 3;
-		height: auto;
-		display: none
+		display: none;
 	}
 
 	#menu ul.sub-menus {
-		width: 100%;
+
 		position: static;
 	}
 
@@ -172,20 +158,19 @@
 	}
 
 	#menu li {
-		display: block;
+		margin: 32px 0 0 0;
 		float: none;
-		width: auto;
 	}
 
 	#menu input,
 	#menu label {
 		position: absolute;
-		left: 0;
-		display:contents;
+		display: block;
 	}
-
+	
 	#menu input {
 		z-index: 4;
+
 	}
 
 	#menu input:checked+label {
@@ -201,8 +186,13 @@
 		display: block
 	}
 
-	.flex-container{
-		margin: 24px;
+	#btn-01:hover,
+	#btn-02:hover,
+	#btn-03:hover,
+	#btn-04:hover {
+		color: #d0d6f9;
+		border-bottom-style: none;
+		transition: 0.1s
 	}
 
 }
