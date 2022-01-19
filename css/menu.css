@@ -55,7 +55,8 @@
 
 #menu input {
 	opacity: 0;
-	cursor: pointer
+	cursor: pointer;
+	zoom: 2;	
 }
 
 #menu label {
