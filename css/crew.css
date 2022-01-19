@@ -84,6 +84,7 @@ main {
 .menu-crew a:hover {
     background-color: white;
     opacity: unset;
+    cursor: pointer;
 }
 
 /*tablet responsive*/
