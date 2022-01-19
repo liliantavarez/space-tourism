@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/destination.css">
+  <script src="./js/script.js"></script>
+  <script src="./js/destination.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+
+  <header class="flex-container">
+
+    <section class="logo">
+      img src="./assets/shared/logo.svg" alt=""><
+    </section>
+
+    <nav id='menu' class="menu-responsive">
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+      <label></label>
+      <ul>
+        <li><a id="btn-01" href='./index.html'><b class="number-menu">00</b> Home</a></li>
+        <li><a id="btn-02" href='./destination.html'><b class="number-menu">01</b> Destination</a></li>
+        <li><a id="btn-03" href='./crew-commander.html'><b class="number-menu">02</b> Crew</a></li>
+        <li><a id="btn-04" href='./technology-vehicle.html'><b class="number-menu">03</b> Technology</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <div class="page-name">
+    <p class="number">01 </p>Pick your destination
+  </div>
+
+  <main>
+
+
+    <div class="image">
+      <img id="planet" src="./assets/destination/image-moon.png" alt="">
+    </div>
+
+    <div class="information">
+      <nav class="menu" id='menu-destiny'>
+        <ul>
+          <li><a onclick="pagemoon()" id="btn-01">Moon</a></li>
+          <li><a onclick="pagemars()" id="btn-02"> Mars</a></li>
+          <li><a onclick="pageeuropa()" id="btn-03"> Europa</a></li>
+          <li><a onclick="pagetitan()" id="btn-04">Titan</a></li>
+        </ul>
+      </nav>
+
+      <p id="name" class="name-destiny">moon</p>
+
+      <div id="description" class="description-planet">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come
+        back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+      </div>
+
+      <hr>
+
+      <section class="distance-time">
+
+        <div class="distance">
+          <p>Avg. distance</p>
+          <p id="dist">384,400 km</p>
+        </div>
+
+        <div class="time">
+          <p>Est. travel time</p>
+          <p id="tm">3 days</p>
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
+</body>
+
+</html>

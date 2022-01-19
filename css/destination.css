@@ -49,6 +49,7 @@ hr {
 }
 
 #menu-destiny a {
+	
 	display: block;
 	line-height: 45px;
 	padding: 0 14px;
@@ -66,14 +67,15 @@ hr {
 	color: #d0d6f9;
 	border-bottom: #8b8d92;
 	border-bottom-style: solid;
-	transition: 0.1s
+	transition: 0.1s;
+	cursor: pointer;
 }
 
 #menu-destiny {
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 2.7px;
-	
+
 }
 
 .name-destiny {
@@ -84,7 +86,8 @@ hr {
 	margin-bottom: 54px;
 }
 
-.name-destiny, #menu-destiny a{
+.name-destiny,
+#menu-destiny a {
 	text-transform: uppercase;
 	color: white;
 }
@@ -115,6 +118,7 @@ hr {
 	font-family: 'Bellefair', serif;
 	font-size: 28px;
 	line-height: 32px;
+	text-transform: uppercase;
 }
 
 
@@ -191,4 +195,69 @@ hr {
 		width: 300px;
 		height: 300px;
 	}
+}
+
+@media screen and (max-width: 767px) {
+
+	body {
+		background-image: url('../assets/destination/background-destination-mobile.jpg');
+		height: 850px;
+	}
+	main {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin-top: 32px;
+		width: 327px;
+	}
+
+	.flex-container {
+		margin: 25px;
+	}
+
+	.page-name {
+		width: 221px;
+		height: 19px;
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 2.7px;
+		margin: 0 auto;
+	}
+	
+	.information{
+		width: 327px;
+
+	}
+
+	#planet {
+		width: 170px;
+	}
+
+	#menu-destiny {
+		font-size: 14px;
+		line-height: 17px;
+		width: 300px;
+		margin: auto;
+	}
+
+	.description-planet {
+		font-size: 15px;
+		line-height: 25px;
+		width: 327px;
+		height: 125px;
+		margin: auto;
+	}
+
+	.name-destiny {
+		font-size: 56px;
+		line-height: 64px;
+		margin-bottom: 0;
+	}
+	hr{
+		margin-top: 32px;
+	}
+	.distance-time{
+		flex-direction: column;
+	}
+
 }
