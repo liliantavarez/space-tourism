@@ -9,17 +9,10 @@
   <link rel="stylesheet" href="./css/technology.css">
   <link rel="stylesheet" href="./css/menu.css">
   <script src="./js/script.js"></script>
+  <script src="./js/technology.js"></script>
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-
-<style>
-  @media screen and (min-width:768px) and (max-width:1023px) {
-    #image {
-      content: url("./assets/technology/image-launch-vehicle-landscape.jpg");
-    }
-  }
-</style>
 
 <body>
 
@@ -33,10 +26,10 @@
       <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
       <label></label>
       <ul>
-        <li><a id="btn-01" href='./index.html'><b>00</b> Home</a></li>
-        <li><a id="btn-02" href='./destination-moon.html'><b>01</b> Destination</a></li>
-        <li><a id="btn-03" href='./crew-commander.html'><b>02</b> Crew</a></li>
-        <li><a id="btn-04" href='./technology-vehicle.html'><b>03</b> Technology</a></li>
+        <li><a id="btn-01" href='./index.html'><b class="number-menu">00</b> Home</a></li>
+        <li><a id="btn-02" href='./destinatio.html'><b class="number-menu">01</b> Destination</a></li>
+        <li><a id="btn-03" href='./crew.html'><b class="number-menu">02</b> Crew</a></li>
+        <li><a id="btn-04" href='./technology.html'><b class="number-menu">03</b> Technology</a></li>
       </ul>
     </nav>
 
@@ -52,9 +45,9 @@
 
       <nav class='menu-technology'>
         <ul>
-          <li><a id="btn-01" href='./technology-vehicle.html'>1</a></li>
-          <li><a id="btn-02" href='./technology-spaceport.html'>2</a></li>
-          <li><a id="btn-03" href='./technology-capsule.html'>3</a></li>
+          <li><a onclick="vehicle()" id="btn-01">1</a></li>
+          <li><a onclick="spaceport()" id="btn-02">2</a></li>
+          <li><a onclick="capsule()" id="btn-03">3</a></li>
         </ul>
       </nav>
 
@@ -68,9 +61,10 @@
       </div>
 
     </section>
-    <section class="technology-image">
+    <picture class="technology-image">
+      <source id="media-tablet" media="(max-width: 768px)" srcset="./assets/technology/image-launch-vehicle-landscape.jpg">
       <img id="image" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="">
-    </section>
+    </picture>
   </main>
 
 </body>
