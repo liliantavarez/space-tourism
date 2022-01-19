@@ -59,6 +59,7 @@ main {
 .menu-technology a:hover {
     border: 1px solid white;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .menu-technology ul,
