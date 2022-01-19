@@ -190,9 +190,10 @@
 	#btn-02:hover,
 	#btn-03:hover,
 	#btn-04:hover {
-		color: #d0d6f9;
 		border-bottom-style: none;
-		transition: 0.1s
+	}
+	.number-menu {
+		display: none;
 	}
 
 }
