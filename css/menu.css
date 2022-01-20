@@ -120,6 +120,9 @@
 		height: 96px;
 		padding-left: 48px;
 	}
+	#menu a {
+		height: 58px;
+	}
 
 	.page-name {
 		margin: 40px 0 0 40px;
@@ -129,7 +132,7 @@
 @media screen and (max-width: 767px) {
 
 	.flex-container {
-		margin: 25px auto;
+		margin: 25px 15px;
 	}
 
 	.page-name {
