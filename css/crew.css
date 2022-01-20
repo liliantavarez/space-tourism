@@ -23,6 +23,9 @@ main {
     margin-right: auto;
     width: 1110PX;
 }
+hr{
+    display: none;
+}
 
 .office {
     font-size: 32px;
@@ -37,12 +40,14 @@ main {
     line-height: 64px;
 }
 
-.office,.name{
+.office,
+.name {
     font-family: 'Bellefair', serif;
     color: #FFFFFF;
 }
 
-.office,.name{
+.office,
+.name {
     text-transform: uppercase;
 }
 
@@ -73,7 +78,6 @@ main {
     display: inline-block;
     border-radius: 50%;
     width: 15px;
-
     height: 15px;
     background: #FFFFFF;
     mix-blend-mode: normal;
@@ -156,6 +160,92 @@ main {
     #photo-crew {
         width: 456.37px;
         height: 572px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        background-image: url('../assets/crew/background-crew-mobile.jpg');
+    }
+
+    .menu-crew a {
+    width: 10px;
+    height: 10px;
+    }
+
+    .page-name {
+        margin: 0 auto;
+        width: 166px; 
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .team-information {
+        text-align: center;
+        width: 327px;
+    }
+
+    .container {
+        width: 327px;
+        display: grid;
+        gap: 53px 0px;
+        grid-template-areas:
+            "photo"
+            "menu-crew"
+            "office"
+            "name"
+            "bio";
+            margin: 0 auto;
+        }
+
+
+    .photo,#photo-crew {
+        grid-area: photo;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 177.12px;
+    }
+
+    .menu-crew {
+        grid-area: menu-crew;
+        width: 88px;
+        margin: 0 auto;
+    }
+    .menu-crew ul{
+        margin: 0;
+    }
+    .menu-crew ul li {
+        padding: 0;
+    }
+    .office {
+        grid-area: office;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0 auto;
+    }
+
+    .name {
+        margin: 0;
+        grid-area: name;
+        font-size: 24px;
+        line-height: 28px;
+        width: 327px;
+    }
+
+    .bio {
+        width: 327px;
+        grid-area: bio;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    hr{
+        display: block;
+        margin: 0;
     }
 
 }
