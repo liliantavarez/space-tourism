@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
+
 }
 
 header {
@@ -181,11 +182,10 @@ main {
 
     .container {
         display: grid;
-        height: 710px;
-        width: 320px;
-        grid-template-columns: 320px;
+        height: 100vh;
+        width: 100vw;
+        grid-template-columns: 100vw;
         grid-template-rows: 170px 40px 220px;
-        gap: 35px 0px;
         grid-auto-flow: row;
         grid-template-areas:
             "technology-image"
@@ -196,13 +196,21 @@ main {
     }
 
 
+    
+    
+    .technology-image {
+        width: 320px;
+        height: 130px;
+        margin: 0 auto;
+        grid-area: technology-image;
+    }
+    
+    .menu-technology {
+        grid-area: menu-technology;
+    }
 
     .infos {
         grid-area: infos;
-    }
-
-    .technology-image {
-        grid-area: technology-image;
     }
 
     .name-technology {
@@ -215,11 +223,8 @@ main {
         line-height: 25px;
         width: 327px;
     }
-
-    .menu-technology {
-        grid-area: menu-technology;
-    }
-
+    
+    
     .menu-technology a {
         width: 40px;
         height: 40px;
@@ -228,6 +233,7 @@ main {
         margin: 0;
         padding: 0;
     }
+
 
     .menu-technology ul li {
         padding-right: 16px;
@@ -245,10 +251,8 @@ main {
         padding-right: 24px;
     }
 
-    #image,
-    .technology-image {
+    #image {
         width: 320px;
-        margin: 0 auto;
     }
 
 }
