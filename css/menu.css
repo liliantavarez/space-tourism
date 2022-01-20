@@ -39,7 +39,6 @@
 }
 
 #menu a {
-	margin-top: 25px;
 	height: 70px;
 	color: white;
 	display: block;
@@ -56,7 +55,7 @@
 #menu input {
 	opacity: 0;
 	cursor: pointer;
-	zoom: 2;	
+	zoom: 2;
 }
 
 #menu label {
@@ -121,13 +120,31 @@
 		height: 96px;
 		padding-left: 48px;
 	}
+
+	.page-name {
+		margin: 40px 0 0 40px;
+	}
 }
 
 @media screen and (max-width: 767px) {
+
+	.flex-container {
+		margin: 25px auto;
+	}
+
+	.page-name {
+		margin: 24px auto;
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 2.7px;
+		width: 176px;
+	}
+
 	#menu label:before {
 		font-size: 3.3em;
 		content: "\2263";
 	}
+
 
 	#menu {
 		position: relative;
@@ -139,18 +156,22 @@
 	}
 
 	#menu a {
-		height: 19px;
-		padding: 0px;
+		height: 41px;
+		padding-left: 5px;
 	}
-	
+
 	#menu ul {
 		backdrop-filter: blur(1.4px);
+		background-color: #44444421;
+
+		width: 35vw;
+		right: -27px;
 		position: absolute;
 		display: none;
+		top: 30px;
 	}
 
 	#menu ul.sub-menus {
-
 		position: static;
 	}
 
@@ -159,7 +180,6 @@
 	}
 
 	#menu li {
-		margin: 32px 0 0 0;
 		float: none;
 	}
 
@@ -168,7 +188,7 @@
 		position: absolute;
 		display: block;
 	}
-	
+
 	#menu input {
 		z-index: 4;
 
@@ -193,6 +213,7 @@
 	#btn-04:hover {
 		border-bottom-style: none;
 	}
+
 	.number-menu {
 		display: none;
 	}
