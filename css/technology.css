@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
 * {
     text-transform: uppercase;
     font-family: 'Barlow Condensed';
@@ -8,8 +9,7 @@ body {
     background-image: url('../assets/technology/background-technology-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: 0;
+    margin: 0 auto;
 }
 
 header {
@@ -21,14 +21,10 @@ header {
 }
 
 main {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 90px auto 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 90px;
 }
-
-
 
 .terminology {
     font-family: 'Barlow Condensed', sans-serif;
@@ -101,7 +97,7 @@ main {
     text-transform: none;
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:767px) and (max-width:1023px) {
     body {
         background-image: url('../assets/technology/background-technology-tablet.jpg');
     }
@@ -131,10 +127,6 @@ main {
     .menu-technology a {
         margin-bottom: 32px;
         margin-right: 16px;
-    }
-
-    .page-name {
-        margin-top: 40PX;
     }
 
     .technology-image {
@@ -177,4 +169,86 @@ main {
         width: 768px;
         height: 310px;
     }
+}
+
+/*responsive for mobile*/
+
+@media screen and (max-width: 767px) {
+
+    body {
+        background-image: url('../assets/technology/background-technology-mobile.jpg');
+    }
+
+    .container {
+        display: grid;
+        height: 710px;
+        width: 320px;
+        grid-template-columns: 320px;
+        grid-template-rows: 170px 40px 220px;
+        gap: 35px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "technology-image"
+            "menu-technology"
+            "infos";
+        margin-top: 0;
+        text-align: center;
+    }
+
+
+
+    .infos {
+        grid-area: infos;
+    }
+
+    .technology-image {
+        grid-area: technology-image;
+    }
+
+    .name-technology {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .description-technology {
+        font-size: 15px;
+        line-height: 25px;
+        width: 327px;
+    }
+
+    .menu-technology {
+        grid-area: menu-technology;
+    }
+
+    .menu-technology a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-technology ul li {
+        padding-right: 16px;
+    }
+
+
+    .technology-information {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+
+    .menu-technology li {
+        display: inline;
+        padding-right: 24px;
+    }
+
+    #image,
+    .technology-image {
+        width: 320px;
+        margin: 0 auto;
+    }
+
 }
