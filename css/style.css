@@ -21,6 +21,7 @@ header {
 }
 
 main {
+	height: 100vh;
 	display: flex;
 	margin: 260px 168px 131px 167px;
 	justify-content: space-between;
@@ -139,6 +140,7 @@ main {
 		flex-direction: column;
 		align-items: center;
 		margin-top: 106px;
+		
 	}
 
 	.flex-container {

@@ -25,6 +25,7 @@ main {
     margin: 90px auto 0 auto;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 
 .terminology {
@@ -73,14 +74,12 @@ main {
 
 .technology-image {
     width: 515px;
-    height: 527px;
     margin-bottom: 101px;
 }
 
 .name-technology {
     font-family: 'Bellefair', serif;
     width: 417px;
-    height: 64px;
     display: inline;
     font-style: normal;
     font-weight: normal;
@@ -91,7 +90,6 @@ main {
 
 .description-technology {
     width: 444px;
-    height: 192px;
     font-size: 18px;
     line-height: 32px;
     color: #D0D6F9;
@@ -104,12 +102,10 @@ main {
     }
 
     .container {
-        width: 768px;
-        height: 1024px;
+        width: 100vw;
         display: grid;
-        grid-template-columns: 768px;
+        grid-template-columns: 100vw;
         grid-template-rows: 300px 60px 19px 46px 140px;
-        gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
             "technology-image"
@@ -133,7 +129,6 @@ main {
     .technology-image {
         grid-area: technology-image;
         width: 768px;
-        height: 310px;
         margin-bottom: 0;
     }
 
@@ -158,7 +153,6 @@ main {
         grid-area: description-technology;
         font-size: 16px;
         line-height: 28px;
-        height: 140px;
     }
 
     .menu-technology li {
@@ -168,7 +162,6 @@ main {
 
     #image {
         width: 768px;
-        height: 310px;
     }
 }
 
@@ -182,7 +175,6 @@ main {
 
     .container {
         display: grid;
-        height: 100vh;
         width: 100vw;
         grid-template-columns: 100vw;
         grid-template-rows: 170px 40px 220px;
@@ -198,11 +190,12 @@ main {
 
     
     
-    .technology-image {
-        width: 320px;
-        height: 130px;
+    .technology-image,#image,.description-technology {
         margin: 0 auto;
         grid-area: technology-image;
+        font-size: 15px;
+        line-height: 25px;
+        width: 100vw;
     }
     
     .menu-technology {
@@ -217,13 +210,6 @@ main {
         font-size: 24px;
         line-height: 28px;
     }
-
-    .description-technology {
-        font-size: 15px;
-        line-height: 25px;
-        width: 327px;
-    }
-    
     
     .menu-technology a {
         width: 40px;
@@ -249,10 +235,6 @@ main {
     .menu-technology li {
         display: inline;
         padding-right: 24px;
-    }
-
-    #image {
-        width: 320px;
     }
 
 }

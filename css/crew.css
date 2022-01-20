@@ -17,11 +17,11 @@ header {
 
 main {
     display: flex;
-    justify-content: space-between;
-    margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
-    width: 1110PX;
+    margin-top: 90px;
+    justify-content: space-between;
+    width: 85vw;
 }
 hr{
     display: none;
