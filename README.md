@@ -44,6 +44,7 @@ Users should be able to:
 - Flexbox
 - Grid
 - Media queries
+- JavaScript
 
 ## Author
 
