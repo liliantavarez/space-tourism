@@ -26,7 +26,14 @@ Users should be able to:
 ![127 0 0 1_5500_technology-capsule html(Tablet) (1)](https://user-images.githubusercontent.com/51184806/146595230-a771e82e-a499-41b8-b7ef-f8c55155c129.png)
 
 ### Mobile responsive
-![127 0 0 1_5500_index html(Mobile)](https://user-images.githubusercontent.com/51184806/147973309-e58eb93c-fa60-4773-954e-52559ae35771.png)
+![liliantavarez github io_space-tourism_index html(Mobile)](https://user-images.githubusercontent.com/51184806/150512620-800ba1e3-8ef3-42d6-b4df-cca22f4d2670.png)
+
+![liliantavarez github io_space-tourism_destination html(Mobile) (1)](https://user-images.githubusercontent.com/51184806/150512426-ca1e32e4-2a3c-4c3d-96a9-c3b5f25a7ccc.png)
+
+![liliantavarez github io_space-tourism_crew html(Mobile)](https://user-images.githubusercontent.com/51184806/150512550-6aa51d3f-6d34-4056-b1c4-cfae7a81e688.png)
+
+![liliantavarez github io_space-tourism_technology html(Mobile)](https://user-images.githubusercontent.com/51184806/150512582-2f5b8622-14dc-4c2d-aff3-0780c30bf668.png)
+
 
 ## My process
 
